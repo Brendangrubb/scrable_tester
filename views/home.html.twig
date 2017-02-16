@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/styles.css" type="text/css">
+        <title>Scrabble Score</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Determine Your Scrabble Score!</h1>
+            </header>
+            <p>Enter a word and see the score you would get if you were playing Scrabble! Or just use the instructions and a calculator.</p>
+
+            <form action="/result" method="post">
+                <div class="form-group">
+                    <label for="word">Enter a word to determine its score:</label>
+                    <input id="word" type="text" name="word">
+                </div>
+                <button class="btn btn-danger" type="submit">CHECK IT!</button>
+            </form>
+        </div>
+    </body>
+</html>

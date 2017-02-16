@@ -17,17 +17,17 @@
                 if (array_search($letter, $one_point) > 0) {
                     ++ $total_points;
                 } else if (array_search($letter, $two_point) > 0) {
-                    $total_points .= $total_points + 2;
+                    $total_points = $total_points + 2;
                 } else if (array_search($letter, $three_point) > 0) {
-                    $total_points .= $total_points + 3;
+                    $total_points = $total_points + 3;
                 } else if (array_search($letter, $four_point) > 0) {
-                    $total_points .= $total_points + 4;
+                    $total_points = $total_points + 4;
                 } else if (array_search($letter, $five_point) > 0) {
-                    $total_points .= $total_points + 5;
+                    $total_points = $total_points + 5;
                 } else if (array_search($letter, $eight_point) > 0) {
-                    $total_points .= $total_points + 8;
+                    $total_points = $total_points + 8;
                 } else if (array_search($letter, $ten_point) > 0) {
-                    $total_points .= $total_points + 10;
+                    $total_points = $total_points + 10;
                 }
             }
             return $total_points;

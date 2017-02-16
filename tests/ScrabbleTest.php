@@ -26,6 +26,17 @@
 
             $this->assertEquals(6, $result);
         }
+
+        function test_thirdword()
+        {
+
+            $new_game = new Scrabble;
+            $input = "acrobatics";
+
+            $result = $new_game->findScore($input);
+
+            $this->assertEquals(16, $result);
+        }
     }
 
 
