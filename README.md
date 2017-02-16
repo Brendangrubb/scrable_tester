@@ -21,6 +21,7 @@ This webpage will allow a user to input a word and will display the score in scr
 |--------|-----|------|
 | Program searches for letters within a single array and returns a score | "rat" | 3 |
 | Program searches for letters within multiple arrays and returns a score | "fat" | 6 |
+| Program will disregard case of input| "FaT" | 6 |
 
 ## Known Bugs
 

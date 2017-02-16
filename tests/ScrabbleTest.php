@@ -37,6 +37,17 @@
 
             $this->assertEquals(16, $result);
         }
+
+        function test_caseDisregard()
+        {
+
+            $new_game = new Scrabble;
+            $input = "FaT";
+
+            $result = $new_game->findScore($input);
+
+            $this->assertEquals(6, $result);
+        }
     }
 
 

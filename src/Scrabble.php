@@ -10,7 +10,8 @@
             $five_point = array("k");
             $eight_point = array("j", "x");
             $ten_point = array("q", "z");
-            $word_letter = str_split($input);
+            $lower_case_input = strtolower($input);
+            $word_letter = str_split($lower_case_input);
             $total_points = 0;
 
             foreach ($word_letter as $letter) {
