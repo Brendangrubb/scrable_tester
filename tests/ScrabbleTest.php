@@ -15,6 +15,17 @@
 
             $this->assertEquals(3, $result);
         }
+
+        function test_secondword()
+        {
+
+            $new_game = new Scrabble;
+            $input = "fat";
+
+            $result = $new_game->findScore($input);
+
+            $this->assertEquals(6, $result);
+        }
     }
 
 
